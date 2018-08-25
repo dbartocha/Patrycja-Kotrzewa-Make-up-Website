@@ -1,0 +1,40 @@
+.slider ul{
+    list-style: none;
+    justify-content: center;
+}
+
+
+.slider .visible{
+    display: inline-block;
+}
+
+.slider li>img {
+    width: 650px;
+    height: 500px;
+
+}
+
+
+.centerSlider {
+padding-top: 0;
+    list-style: none;
+    text-align: center;
+   background: darksalmon ;
+
+}
+.nextPicture , .prevPicture {
+    height: 100px;
+    width: 150px;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    background: coral;
+    font-family: 'Diplomata SC', cursive;
+    border-radius: 30px;
+}
+.nextPicture{
+    float: right;
+}
+.prevPicture{
+    float: left;
+}
