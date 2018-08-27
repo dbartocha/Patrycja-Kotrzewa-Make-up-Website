@@ -1,0 +1,47 @@
+.slider li {
+    list-style: none;
+}
+
+.sliderPictures{
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider .visible{
+    display: inline-block;
+}
+
+.slider li>img {
+    width: 650px;
+    height: 500px;
+
+}
+
+
+.centerSlider {
+    font-family: 'Indie Flower', cursive;
+    position: relative;
+padding-top: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(248,209,203) ;
+
+}
+.nextPicture , .prevPicture {
+    margin-top: 250px;
+    height: 100px;
+    width: 150px;
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    background: coral;
+    font-family: 'Diplomata SC', cursive;
+    border-radius: 30px;
+}
+.nextPicture{
+    float: right;
+}
+.prevPicture{
+    float: left;
+}

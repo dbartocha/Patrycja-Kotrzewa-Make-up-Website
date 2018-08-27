@@ -1,21 +1,34 @@
 import React, {Component} from 'react';
-import logo from './photos/1.jpg';
 import './App.css';
-import Header from './js/header';
-import './sass/headerStyle.css';
-import './sass/menu.css'
-import './sass/firstSection.css'
-import Menu from './js/menu'
-import FirstSection from './js/firstSection';
+import AboutMe from './aboutMe/jsx/aboutMe'
+import Menu from './menu/menu'
+import MainPage from './mainPage/js/mainPage'
+import Gallery from './gallery/jsx/gallery'
+import Contact from './contact/jsx/contact'
+import {
+    Route,
+    HashRouter,
+    Switch
+} from 'react-router-dom';
+
+
+
 
 
 class App extends Component {
     render() {
-        return (<div>
+        return (
+            <HashRouter>
+            <div>
                 <Menu/>
-                <Header/>
-                <FirstSection/>
+                <Switch>
+                    <Route exact path="/" component={MainPage}/>
+                    <Route exact path="/gallery" component={Gallery}/>
+                    <Route exact path="/contact" component={Contact}/>
+                    <Route exact path="/aboutme" component={AboutMe}/>
+                </Switch>
             </div>
+            </HashRouter>
         );
     }
 }

@@ -1,0 +1,33 @@
+.aboutMe{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(248,209,203) ;
+}
+
+.aboutMeImg {
+    padding-right: 30px;
+    display: inline-block;
+    width: 540px;
+    height: 400px;
+}
+
+.aboutMeTxt{
+text-align: center;
+    font-size: 2.1rem;
+}
+.aboutMeLogos{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.aboutMeLogoIg{
+    padding-left: 10px;
+    width: 50px;
+    height: 50px;
+}
+.aboutMeLogoFb{
+    cursor: pointer;
+    padding-right: 10px;
+    width: 70px;
+    height: 50px;
+}
