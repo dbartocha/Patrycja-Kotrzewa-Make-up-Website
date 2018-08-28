@@ -1,11 +1,17 @@
-.top {
+.top{
+
   padding-top: 20px;
+
   font-family: 'Great Vibes', cursive;
   text-align: center;
   background: url("../photos/1.jpg");
   height: 250px;
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: cover; }
-  .top h1 {
-    font-size: 80px; }
+  background-size: cover;
+
+  h1{
+    font-size: 80px;
+  }
+}
+

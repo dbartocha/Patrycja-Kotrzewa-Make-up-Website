@@ -1,16 +1,12 @@
-.news{
-    padding-top: 0;
-    margin:0;
-    background-color: rgb(248,209,203) ;
-    text-align: center;
-}
+.news {
+  padding-top: 0;
+  margin: 0;
+  background-color: #f8d1cb;
+  text-align: center; }
 
-.news h2{
-    font-size: 30px;
-    font-family: 'Indie Flower', cursive;
+.news h2 {
+  font-size: 30px;
+  font-family: 'Indie Flower', cursive; }
 
-}
-
-.news span{
-    font-size: 25px;
-}
+.news span {
+  font-size: 25px; }

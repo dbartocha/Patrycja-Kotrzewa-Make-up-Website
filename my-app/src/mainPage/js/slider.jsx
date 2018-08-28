@@ -1,13 +1,16 @@
 import React from 'react';
-import img1 from '../photos/sider/1.jpeg'
-import img2 from '../photos/sider/2.jpeg'
-import img3 from '../photos/sider/3.jpeg'
-import img4 from '../photos/sider/4.jpeg'
-import img5 from '../photos/sider/5.jpeg'
-import img6 from '../photos/sider/6.jpeg'
-import img7 from '../photos/sider/7.jpeg'
-import img8 from '../photos/sider/8.jpeg'
+import img1 from '../photos/slider/1.jpeg'
+import img2 from '../photos/slider/2.jpeg'
+import img3 from '../photos/slider/3.jpeg'
+import img4 from '../photos/slider/4.jpeg'
+import img5 from '../photos/slider/5.jpeg'
+import img6 from '../photos/slider/6.jpeg'
+import img7 from '../photos/slider/7.jpeg'
+import img8 from '../photos/slider/8.jpeg'
 import '../sass/slider.css'
+import prev from '../photos/slider/prev.png'
+import next from '../photos/slider/next.png'
+
 
 class Slider extends React.Component {
     state = {
@@ -83,7 +86,7 @@ class Slider extends React.Component {
                     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"/>
                     <h2>Moje przykładowe makijaże </h2>
                    <div className="sliderPictures">
-                       <button className='prevPicture' onClick={this.handleClickPrev}>PREV</button>
+                       <button  className='prevPicture' onClick={this.handleClickPrev}><img src={prev} style={{width:'100px',height:'100px'}}/> </button>
                     <ul className='slider'>
                         <li><img style={style1} src={img1}/></li>
                         <li><img style={style2} src={img2}/></li>
@@ -96,7 +99,7 @@ class Slider extends React.Component {
 
                     </ul>
 
-                    <button onClick={this.handleClickNext} className='nextPicture'>NEXT</button>
+                    <button onClick={this.handleClickNext} className='nextPicture'> <img style={{width:'100px',height:'100px'}} src={next}/> </button>
                    </div>
                    </div>
             </div>

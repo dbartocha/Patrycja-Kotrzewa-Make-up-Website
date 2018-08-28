@@ -55,7 +55,8 @@ class Gallery extends React.Component {
             height: this.state.checked === true ? '400px' : '200px'
         };
         return (
-            <div>
+            <div className="galleryPage">
+                <div className="centerGallery">
                 <div className="gallery">
                     <img src={img1} style={style}/>
                     <img src={img2} style={style}/>
@@ -99,7 +100,7 @@ class Gallery extends React.Component {
                     <img src={img40} style={style}/>
                     <button>Zobacz Więcej...</button>
                 </div>
-
+                </div>
             </div>
         )
     }

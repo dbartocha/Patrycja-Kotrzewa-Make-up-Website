@@ -1,6 +1,11 @@
-.gallery{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
 
-}
+.galleryPage {
+  background-color: #ffb4be; }
+
+.centerGallery {
+  margin: 0 auto;
+  width: 1100px; }
