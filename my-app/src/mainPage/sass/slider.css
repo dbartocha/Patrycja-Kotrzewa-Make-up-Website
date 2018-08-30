@@ -13,18 +13,19 @@
   height: 500px; }
 
 .centerSlider {
+  border-radius: 15px;
   font-family: 'Indie Flower', cursive;
   position: relative;
   padding-top: 0;
   list-style: none;
   text-align: center;
   font-size: 25px;
-  background-color: #f8d1cb; }
+  background-color: #EDF8D3; }
 
 .nextPicture, .prevPicture {
   border: 0;
   margin-top: 250px;
-  background-color: #f8d1cb;
+  background-color: #EDF8D3;
   height: 100px;
   width: 150px;
   cursor: pointer; }

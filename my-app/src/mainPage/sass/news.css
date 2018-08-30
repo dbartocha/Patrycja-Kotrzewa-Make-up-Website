@@ -1,7 +1,7 @@
 .news {
   padding-top: 0;
   margin: 0;
-  background-color: #f8d1cb;
+  background-color: #EDF8D3;
   text-align: center; }
 
 .news h2 {
@@ -9,4 +9,6 @@
   font-family: 'Indie Flower', cursive; }
 
 .news span {
+  margin: 40px;
+  display: block;
   font-size: 25px; }

@@ -4,6 +4,8 @@ import FirstSection from "./slider";
 import News from "./news"
 import Footer from "../../footer/jsx/footer"
 import '../sass/mainPage.css'
+
+
 class MainPage extends React.Component{
     render(){
         return(<div className="mainPage">

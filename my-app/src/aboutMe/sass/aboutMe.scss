@@ -1,10 +1,13 @@
 .aboutMePage{
-    background-color: rgb(282, 180, 190);
+    background-color: #EFF3C6;
+  height: 100vh;
+  padding-top: 15px;
 }
-.aboutMe{
+.aboutMe{padding-top: 10px;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(248,209,203) ;
+    background-color: #EFF3C6 ;
+  border-radius: 15px;
 }
 
 .aboutMeImg {
@@ -26,14 +29,15 @@ text-align: center;
 }
 .aboutMeLogoIg{
     padding-left: 10px;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 60px;
 }
 .aboutMeLogoFb{
     cursor: pointer;
+    margin-top: -7px;
     padding-right: 10px;
-    width: 70px;
-    height: 50px;
+    width: 120px;
+    height: 80px;
 }
 .aboutMeTxtDiv{
     width: 70%;

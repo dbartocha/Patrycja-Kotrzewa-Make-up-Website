@@ -19,19 +19,20 @@
 
 
 .centerSlider {
+    border-radius: 15px;
     font-family: 'Indie Flower', cursive;
     position: relative;
 padding-top: 0;
     list-style: none;
     text-align: center;
     font-size: 25px;
-    background-color: rgb(248,209,203) ;
+    background-color: #EDF8D3;
 
 }
 .nextPicture , .prevPicture {
     border: 0;
     margin-top: 250px;
-    background-color: rgb(248,209,203) ;
+    background-color: #EDF8D3;
     height: 100px;
     width: 150px;
     cursor: pointer;

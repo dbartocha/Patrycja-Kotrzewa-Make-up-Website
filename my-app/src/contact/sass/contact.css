@@ -2,7 +2,9 @@
   padding-top: 15px;
   display: flex;
   justify-content: space-around;
-  background-color: #f8d1cb; }
+  background-color: #EDF8D3;
+  height: 100vh;
+  border-radius: 10px; }
 
 .contactPage {
-  background-color: #ffb4be; }
+  background-color: #EFF3C6; }

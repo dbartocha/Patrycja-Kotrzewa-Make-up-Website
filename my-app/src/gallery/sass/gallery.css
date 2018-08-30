@@ -1,11 +1,21 @@
 .gallery {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  height: 100vh; }
 
 .galleryPage {
-  background-color: #ffb4be; }
+  background-color: #EFF3C6; }
 
 .centerGallery {
   margin: 0 auto;
   width: 1100px; }
+
+.galleryImages {
+  margin: 8px;
+  width: 100px;
+  height: 100px; }
+
+.w8Gif {
+  width: 100px;
+  height: 100px; }
