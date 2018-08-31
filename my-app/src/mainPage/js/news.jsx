@@ -46,8 +46,8 @@ componentDidMount(){
 console.log(this.state.text);
         return(
          <div className="news">
-             <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"/>
-             <h2>Aktualności / Promocje</h2>
+             <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet"/>
+             <h2 className='news2'>Aktualności / Promocje</h2>
                 <span>
                     {this.state.text}
                 </span>

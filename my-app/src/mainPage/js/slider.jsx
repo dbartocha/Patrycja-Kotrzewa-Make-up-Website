@@ -7,6 +7,7 @@ import next from '../photos/slider/next.png'
 
 class Slider extends React.Component {
     state = {
+        check:false,
         list:[],
         index: 0,
         style:0
@@ -65,28 +66,36 @@ class Slider extends React.Component {
 
     render() {
 
-        let style=-1;
-        return (
-            <div className='centerSlider'>
-                <div>
-                    <link href="https://fonts.googleapis.com/css?family=Diplomata+SC" rel="stylesheet"/>
-                    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"/>
-                    <h2>Moje przykładowe makijaże </h2>
-                   <div className="sliderPictures">
-                       <button  className='prevPicture' onClick={this.handleClickPrev}><img src={prev} style={{width:'100px',height:'100px'}} alt="prevArrow"/> </button>
-                    <ul className='slider'>
-                        {this.state.list.map((el)=>{
-                            style++;
-                         return   <li style={{display: this.state.index === style ? 'inline-block' : 'none'}} key={this.state.list[style]} ><img src={el} alt={el} /> </li>
-                        })}
-                    </ul>
 
-                    <button onClick={this.handleClickNext} className='nextPicture'> <img style={{width:'100px',height:'100px'}} src={next} alt="nextArrow"/> </button>
-                   </div>
-                   </div>
-            </div>
-        )
-    }
+        let style = -1;
+
+
+            return (
+                <div className='centerSlider'>
+                    <div>
+                        <link href="https://fonts.googleapis.com/css?family=Diplomata+SC" rel="stylesheet"/>
+                        <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"/>
+                        <h2>Moje przykładowe makijaże </h2>
+                        <div className="sliderPictures">
+                            <button className='prevPicture' onClick={this.handleClickPrev}><img src={prev} style={{
+                                width: '100px',
+                                height: '100px'
+                            }} alt="prevArrow"/></button>
+                            <ul className='slider'>
+                                {this.state.list.map((el) => {
+                                    style++;
+                                    return <li style={{display: this.state.index === style ? 'inline-block' : 'none'}}
+                                               key={this.state.list[style]}><img src={el} alt={el}/></li>
+                                })}
+                            </ul>
+
+                            <button onClick={this.handleClickNext} className='nextPicture'><img
+                                style={{width: '100px', height: '100px'}} src={next} alt="nextArrow"/></button>
+                        </div>
+                    </div>
+                </div>
+            )
+        }
 
 }
 

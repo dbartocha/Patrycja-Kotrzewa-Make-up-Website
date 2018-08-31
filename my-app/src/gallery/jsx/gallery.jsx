@@ -21,7 +21,8 @@ class Gallery extends React.Component {
                         .getDownloadURL()
                         .then(url => this.setState({
                             check:true,
-                            list: [...this.state.list, url]
+                            list: [...this.state.list, url],
+                            zoom:false
                         }))
                 }
 
@@ -29,21 +30,24 @@ class Gallery extends React.Component {
         });
     }
 
-handleClick=(event,sth, num)=>{
-    console.log(this.state.list.slice()[0]);
-    // firebase.database().ref('/images/').delete(this.state.list.slice()[0]);
-  let now=this.state.list.slice();
-    now.splice(num,1);
-    console.log(now);
-    this.setState({
-        list:now
-    });
+                    handleOver=()=> {
+                        this.setState({
+                            zoom: true
+                        })
+                    };
+                    handleLeave=()=>{
+                        this.setState({
+                            zoom: true
+                        })
+                    }  ;
 
 
 
 
 
-};
+
+
+
     render() {
 
         const style={
@@ -65,15 +69,12 @@ handleClick=(event,sth, num)=>{
                             <div>
                             <ul style={{listStyle: 'none', display: 'flex'}}>
                                 {this.state.list.map((el) => {
-                                    return (<li key={el}><img className="galleryImages" src={el} alt={el} />
-                                    <button onClick={this.handleClick}>Usuń</button></li>)
+                                    return (<li key={el}><img className="galleryImages" src={el} alt={el} /></li>)
                                 })}
 
                             </ul>
                             </div>
-                            <div>
-                            <button>Zobacz Więcej...</button>
-                            </div>
+
                         </div>
 
                     </div>
