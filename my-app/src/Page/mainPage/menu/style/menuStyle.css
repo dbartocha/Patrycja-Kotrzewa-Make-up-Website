@@ -9,7 +9,7 @@
   flex-direction: row;
   margin: 30px;
   font-size: 35px;
-  font-family: 'Permanent Marker', cursive; }
+  font-family: 'Courgette', cursive; }
 
 .hamburger {
   visibility: hidden; }
@@ -37,19 +37,24 @@ a {
 
 @media (max-width: 850px) {
   .hiddenMenu {
+    z-index: 2;
+    background: black;
+    width: 400px;
     transition: 1s;
     position: relative;
     right: 500px; }
     .hiddenMenu .menuList {
       flex-direction: column; }
-      .hiddenMenu .menuList .menuElement .underline {
-        height: 0;
-        margin: 0; }
-        .hiddenMenu .menuList .menuElement .underline:hover {
-          transform: none;
-          color: black; }
-        .hiddenMenu .menuList .menuElement .underline:focus {
-          color: grey; }
+      .hiddenMenu .menuList .menuElement {
+        color: white; }
+        .hiddenMenu .menuList .menuElement .underline {
+          height: 0;
+          margin: 0; }
+          .hiddenMenu .menuList .menuElement .underline:hover {
+            transform: none;
+            color: black; }
+          .hiddenMenu .menuList .menuElement .underline:focus {
+            color: grey; }
   .hamburger {
     outline: none;
     margin-left: 15px;
@@ -71,3 +76,15 @@ a {
       transform: translateY(10px); }
     .hamburger::after {
       transform: translateY(25px); } }
+
+@media (max-width: 650px) {
+  .hiddenMenu {
+    width: 300px; }
+  .menuElement {
+    font-size: 20px; } }
+
+@media (max-width: 350px) {
+  .hiddenMenu {
+    width: 200px; }
+  .menuElement {
+    font-size: 12px; } }

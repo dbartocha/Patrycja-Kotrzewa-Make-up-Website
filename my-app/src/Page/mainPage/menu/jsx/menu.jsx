@@ -21,7 +21,7 @@ class Menu extends React.Component {
 
         return (
             <div className='menu'>
-                <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet"/>
+                <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet"/>
                 <button onClick={this.click} className=' hamburger'> </button>
                 <div className='hiddenMenu' style={{right: this.state.check === true ? '50px' : '500px'}}>
                     <ul className='menuList'>

@@ -8,14 +8,63 @@
 }
 
 .news{
+
   box-sizing: border-box;
   flex-wrap: wrap;
   text-align: center;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Courgette', cursive;
 }
 .informations{
   font-size: 50px;
 }
 .paragraph{
   font-size: 30px;
+}
+@media(max-width:1150px) {
+.center{
+  width: 900px;
+}
+  .news{
+  margin-top: 40px;
+}
+  .paragraph{
+    font-size: 25px;
+  }
+}
+
+@media(max-width:920px){
+.center{
+  width: 550px;
+}
+  .informations{
+    font-size: 40px;
+  }
+  .paragraph{
+    font-size: 25px;
+  }
+}
+
+@media(max-width:580px){
+  .center{
+width:350px;
+  }
+  .informations{
+    font-size: 20px;
+  }
+  .paragraph{
+    font-size: 15px;
+  }
+
+}
+@media(max-width:370px){
+  .center{
+    width:200px;
+  }
+  .informations{
+    font-size: 15px;
+  }
+  .paragraph{
+    font-size: 10px;
+  }
+
 }

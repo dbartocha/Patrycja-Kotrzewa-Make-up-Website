@@ -40,13 +40,25 @@
     height: 500px;
     width: 700px; } }
 
-@media (max-width: 730px) {
+@media (max-width: 870px) {
+  .carousele {
+    margin-left: -20px;
+    height: 500px;
+    width: 700px; } }
+
+@media (max-width: 830px) {
   .carousele {
     height: 400px;
     width: 550px; } }
 
 @media (max-width: 580px) {
   .carousele {
+    height: 300px;
+    width: 450px; } }
+
+@media (max-width: 530px) {
+  .carousele {
+    margin-left: -20px;
     height: 300px;
     width: 450px; } }
 
@@ -57,5 +69,8 @@
 
 @media (max-width: 370px) {
   .carousele {
+    margin-left: -30px;
     height: 200px;
-    width: 270px; } }
+    width: 270px; }
+    .carousele button {
+      display: none; } }

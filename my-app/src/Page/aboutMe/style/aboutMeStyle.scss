@@ -2,7 +2,7 @@
   width: 1100px;
   display: flex;
  justify-content: space-between;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Courgette', cursive;
 }
 
 .image{
@@ -13,9 +13,25 @@
 .text{
   margin: 10px;
   font-size: 20px;
-  text-align: center    ;
+  text-align: center;
 }
 
-.background{
-  background: url("../photo/background.jpg") fixed;
+
+
+.aboutMeLogos{
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutMeLogoFb{
+
+    width: 90px;
+    height: 70px;
+
+}
+.aboutMeLogoIg{
+
+  width: 60px;
+  height: 60px;
+
 }
