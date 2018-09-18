@@ -1,36 +1,26 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import './App.css';
-import AboutMe from './aboutMe/jsx/aboutMe'
-import Menu from './menu/menu'
-import MainPage from './mainPage/js/mainPage'
-import Gallery from './gallery/jsx/gallery'
-import Contact from './contact/jsx/contact'
+import MainPage from './Page/mainPage/jsx/mainPage'
+import AboutMe from './Page/aboutMe/jsx/aboutMe'
 import {
     Route,
     HashRouter,
     Switch
 } from 'react-router-dom';
 
-
-
-
-
 class App extends Component {
-    render() {
-        return (
-            <HashRouter>
-            <div>
-                <Menu/>
-                <Switch>
-                    <Route exact path="/" component={MainPage}/>
-                    <Route exact path="/gallery" component={Gallery}/>
-                    <Route exact path="/contact" component={Contact}/>
-                    <Route exact path="/aboutme" component={AboutMe}/>
-                </Switch>
-            </div>
-            </HashRouter>
-        );
-    }
+  render() {
+    return (
+        <HashRouter>
+      <div>
+          <Switch>
+              <Route exact path="/" component={MainPage}/>
+                <Route exact path='/about' component={AboutMe}/>
+          </Switch>
+      </div>
+        </HashRouter>
+    );
+  }
 }
 
 export default App;

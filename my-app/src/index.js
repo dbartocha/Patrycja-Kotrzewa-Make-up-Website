@@ -17,11 +17,8 @@ let config = {
 };
 
 
-
 firebase.initializeApp(config);
 
-
-ReactDOM.render(
-    <App />,
+ReactDOM.render(<App />,
     document.getElementById('root'));
 registerServiceWorker();

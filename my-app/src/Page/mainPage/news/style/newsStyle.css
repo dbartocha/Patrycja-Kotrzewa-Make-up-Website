@@ -1,0 +1,19 @@
+.center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 1100px;
+  flex-wrap: wrap; }
+
+.news {
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  text-align: center;
+  font-family: 'Permanent Marker', cursive; }
+
+.informations {
+  font-size: 50px; }
+
+.paragraph {
+  font-size: 30px; }

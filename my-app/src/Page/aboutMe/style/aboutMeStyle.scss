@@ -1,0 +1,21 @@
+.aboutMe{
+  width: 1100px;
+  display: flex;
+ justify-content: space-between;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.image{
+  border-radius: 35%;
+  width: 500px;
+  height: 500px;
+}
+.text{
+  margin: 10px;
+  font-size: 20px;
+  text-align: center    ;
+}
+
+.background{
+  background: url("../photo/background.jpg") fixed;
+}
