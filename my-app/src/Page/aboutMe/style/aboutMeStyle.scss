@@ -35,3 +35,192 @@
   height: 60px;
 
 }
+
+@media (max-width: 1150px){
+  .aboutMe{
+    width: 900px;
+  }
+  .aboutMeLogoFb{
+
+    width: 85px;
+    height: 65px;
+
+  }
+  .aboutMeLogoIg{
+
+    width: 55px;
+    height:55px;
+
+  }
+
+  .image{
+    border-radius: 35%;
+    width: 450px;
+    height: 450px;
+  }
+
+  .text{
+    margin: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+
+}
+
+@media (max-width: 950px){
+  .aboutMe{
+    width: 700px;
+  }
+  .aboutMeLogoFb{
+
+    width: 75px;
+    height: 55px;
+
+  }
+  .aboutMeLogoIg{
+
+    width: 45px;
+    height:45px;
+
+  }
+
+  .image{
+    border-radius: 35%;
+    width: 400px;
+    height: 400px;
+  }
+
+  .text{
+    margin: 10px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+
+}
+
+@media (max-width: 760px){
+  .aboutMe{
+    width: 520px;
+  }
+  .aboutMeLogoFb{
+
+    width: 65px;
+    height: 45px;
+
+  }
+  .aboutMeLogoIg{
+
+    width: 35px;
+    height:35px;
+
+  }
+
+  .image{
+    border-radius: 35%;
+    width: 300px;
+    height: 300px;
+  }
+
+  .text{
+    margin: 10px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+
+}
+
+@media (max-width: 550px){
+  .aboutMe{
+    width: 450px;
+  }
+  .aboutMeLogoFb{
+
+    width: 40px;
+    height: 30px;
+
+  }
+  .aboutMeLogoIg{
+
+    width: 25px;
+    height:25px;
+
+  }
+
+  .image{
+    border-radius: 35%;
+    width: 250px;
+    height: 250px;
+  }
+
+  .text{
+    margin: 10px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+
+}
+@media (max-width: 450px){
+  .aboutMe{
+    width: 350px;
+  }
+  .aboutMeLogoFb{
+
+    width: 35px;
+    height: 25px;
+
+  }
+  .aboutMeLogoIg{
+
+    width: 20px;
+    height:20px;
+
+  }
+
+  .image{
+    border-radius: 35%;
+    width: 180px;
+    height: 200px;
+  }
+
+  .text{
+    margin: 10px;
+    font-size: 8px;
+    text-align: center;
+  }
+
+
+}@media (max-width: 350px){
+  .aboutMe{
+    width: 300px;
+  }
+  .aboutMeLogoFb{
+
+    width: 35px;
+    height: 25px;
+
+  }
+  .aboutMeLogoIg{
+
+    width: 20px;
+    height:20px;
+
+  }
+
+  .image{
+    border-radius: 35%;
+    width: 150px;
+    height: 180px;
+  }
+
+  .text{
+    margin: 10px;
+    font-size: 6px;
+    text-align: center;
+  }
+
+
+}

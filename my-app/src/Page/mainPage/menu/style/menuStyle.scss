@@ -136,7 +136,26 @@ outline: none;
 }
 @media (max-width: 350px) {
 
+  .hamburger{
+    width: 35px;
+    height: 25px;
 
+    &::before, &::after{
+
+      content:'';
+      position: absolute;
+      top:0;
+      left: 0;
+      width: 100%;
+      border-top: 5px solid black;
+      transform: translateY(7px) ;
+    }
+    &::after{
+
+      transform: translateY(19px) ;
+    }
+
+  }
   .hiddenMenu{
     width: 200px;
   }

@@ -5,9 +5,10 @@ class Header extends React.Component{
 
 
     render(){
-        return(
+        return(<div className='center_header'>
             <div className='header'>
 
+            </div>
             </div>
         )
     }

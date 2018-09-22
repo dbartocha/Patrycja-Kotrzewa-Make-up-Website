@@ -44,9 +44,9 @@ class Slider extends React.Component {
                 <div className='center'>
                     <div className='carousele'>
                     <Carousel>
-                        <img src={img1} alt='img1' className='sliderElements'/>
+                        <img src={img1} alt='img1' key='123' className='sliderElements'/>
                         {this.state.list.map((el) => {
-                            return <img src={el} alt={el} className='sliderElements'/>
+                            return <img src={el} alt={el} key={el} className='sliderElements'/>
                         })}
 
 
