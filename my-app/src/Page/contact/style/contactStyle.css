@@ -22,6 +22,20 @@
   margin-left: 150px;
   font-size: 30px; }
 
+.contactLogos {
+  display: flex;
+  flex-direction: column; }
+
+.contactLogoFb {
+  width: 90px;
+  height: 80px; }
+
+.contactLogoIg {
+  margin-left: 10px;
+  margin-top: 200px;
+  width: 60px;
+  height: 70px; }
+
 @media (max-width: 1150px) {
   .center_contact {
     width: 800px; }
@@ -61,7 +75,15 @@
   .contacts {
     margin-top: 20px;
     margin-left: 110px;
-    font-size: 20px; } }
+    font-size: 20px; }
+  .contactLogoFb {
+    width: 70px;
+    height: 50px; }
+  .contactLogoIg {
+    width: 50px;
+    height: 55px;
+    margin-left: 7px;
+    margin-top: 100px; } }
 
 @media (max-width: 700px) {
   .center_contact {
@@ -76,7 +98,11 @@
   .contacts {
     margin-top: 20px;
     margin-left: 80px;
-    font-size: 17px; } }
+    font-size: 17px; }
+  .contactLogoIg {
+    margin-top: 50px;
+    width: 40px;
+    height: 45px; } }
 
 @media (max-width: 600px) {
   .center_contact {
@@ -106,7 +132,11 @@
   .contacts {
     margin-top: 20px;
     margin-left: 50px;
-    font-size: 15px; } }
+    font-size: 15px; }
+  .contactLogoIg {
+    margin-top: 50px;
+    width: 31px;
+    height: 30px; } }
 
 @media (max-width: 460px) {
   .center_contact {
@@ -136,4 +166,17 @@
   .contacts {
     margin-top: 20px;
     margin-left: 30px;
-    font-size: 10px; } }
+    font-size: 10px; }
+  .contactLogos {
+    margin-left: -50px; } }
+
+@media (max-width: 770px) {
+  .contactLogoIg {
+    width: 50px;
+    height: 55px;
+    margin-top: 85px; }
+  .contactLogoFb {
+    width: 50px;
+    height: 40px; }
+  .contactLogos {
+    margin-left: -70px; } }

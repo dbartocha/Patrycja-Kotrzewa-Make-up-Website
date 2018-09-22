@@ -3,6 +3,8 @@ import '../style/contactStyle.css'
 import Menu from '../../mainPage/menu/jsx/menu'
 import Header from '../../mainPage/header/jsx/header'
 import img from '../style/1.jpg'
+import fb from "../../aboutMe/photo/facebookpng.png";
+import ig from "../../aboutMe/photo/instagram.png";
 class Contact extends React.Component{
 
     render(){
@@ -26,7 +28,12 @@ class Contact extends React.Component{
                             <span style={{marginTop:'10px'}}>Nr tel.: 601-751-516</span>
                         </div>
                     </div>
-
+                    <div className="contactLogos">
+                        <a href="https://www.facebook.com/Patrycja.Kostrzewa.Make.Up/?fref=mentions&__tn__=K-RH-R"
+                           target="_blank"><img className="contactLogoFb" src={fb} alt="FBLogo"/></a>
+                        <a href="https://www.instagram.com/kostrzewka_makeup/"
+                           target="_blank"><img alt="IGLogo" className="contactLogoIg" src={ig}/></a>
+                    </div>
                 </div>
 </div>
             </div>
